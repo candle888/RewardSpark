@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RewardSpark</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero card">
+        <p class="eyebrow">RewardSpark</p>
+        <h1>Earn from simple mobile tasks</h1>
+        <p>
+          Users can earn by installing partner apps, watching short ads, and
+          completing quick challenges. Keep it simple, transparent, and secure.
+        </p>
+        <div class="stats">
+          <article>
+            <strong id="balance">$0.00</strong>
+            <span>Wallet Balance</span>
+          </article>
+          <article>
+            <strong id="completed">0</strong>
+            <span>Tasks Completed</span>
+          </article>
+        </div>
+      </header>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Today’s Tasks</h2>
+          <p>Tap a task to simulate completion and rewards.</p>
+        </div>
+        <div id="taskList" class="task-list"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Security Center</h2>
+          <p>Easy controls for fraud prevention and account protection.</p>
+        </div>
+        <div class="security-grid">
+          <label class="switch-row">
+            <span>Device verification required</span>
+            <input type="checkbox" checked />
+          </label>
+          <label class="switch-row">
+            <span>Login alerts enabled</span>
+            <input type="checkbox" checked />
+          </label>
+          <label class="switch-row">
+            <span>Auto-flag suspicious earning spikes</span>
+            <input type="checkbox" checked />
+          </label>
+          <label class="switch-row">
+            <span>Withdrawal PIN required</span>
+            <input type="checkbox" checked />
+          </label>
+        </div>
+      </section>
+
+      <section class="card legal-card">
+        <h2>Legal Pages</h2>
+        <p>
+          A detailed terms and privacy page is included so the app can be
+          launched with clear disclosures and compliance language.
+        </p>
+        <a class="button" href="terms-privacy.html">Open Terms &amp; Privacy</a>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
